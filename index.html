@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS+DIV</title>
+	<style type="text/css"> 
+    #nav{ margin: 0px auto; border:0px; background:#ccd2de; width:580px;          
+    	height:60px; text-align:center; padding-top:50px;} 
+ 	#mainbox { margin: 0px auto; width: 580px; background: #FFFFFF; }  	
+ 	#menu{ float: right; margin: 2px 0px 2px 0px; padding:0px 0px 0px 0px;                        
+		width: 400px; background: #ccd2de; }                 
+ 	#sidebar{ float: left; margin: 2px 2px 0px 0px; padding: 0px; background: #F2F3F7;              
+		width: 170px;} 
+ 	#content{ float: right; margin: 1px 0px 2px 0px; padding:0px;             
+ 		width: 400px; background:#E0EFDE;} 
+ 	#footer{ clear: both; margin: 0px auto; padding: 5px 0px 5px 0px; background: #ccd2de;            
+		height: 40px; width: 580px;  text-align:center; padding-top:20px;} 
+</style> 
+</head>
+<body>
+	<div id="nav">
+		<p>这里是nav</p>
+	</div>
+	<div id="mainbox">
+		<div id="menu">
+			<p>这里是menu</p>
+		</div>
+		<div id="sidebar">
+			<p>这里是sidebar</p>
+		</div>
+		<div id="content">
+			<p>这里是content</p>
+			<p>这里是主要内容，根据内容自动适应高度</p>
+			<p>这里是主要内容，根据内容自动适应高度</p>
+			<p>这里是主要内容，根据内容自动适应高度</p>
+		</div>
+	</div>
+	<div id="footer">
+		<p>这里是footer</p>
+	</div>
+</body>
+</html>
